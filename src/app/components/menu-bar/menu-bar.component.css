@@ -1,0 +1,22 @@
+.youtube > a:hover {
+  color: red;
+  font-weight: bold;
+}
+.linkedin > a:hover {
+  color: blue;
+  font-weight: bold;
+}
+.github > a:hover {
+  color: grey;
+  font-weight: bold;
+}
+
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__menu-bar > ul > li {
+  margin-right: 20px;
+  list-style: none;
+}
